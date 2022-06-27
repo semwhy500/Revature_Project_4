@@ -19,11 +19,21 @@ A Mule 4 project simulating an event ticketing web API, demonstrating communicat
 ## Features
 
 List of features ready:
-* /event/findAll (GET) - Returns a list of all events
-* /event/save (PUT) - Adds an event to the event database
-* /venues/getvenues (GET) - Returns a list of all venues
-* /venues/addvenue (POST) - Adds a venue to the venue database
+* /event/getAll (GET) - Returns a list of all events
+* /event/add/{ID} (PUT) - Adds an event to the event database with the specified ID
 * /event/{ID} (GET) - Returns a list of events matching the specified ID
 * /event/delete/{ID} (POST) - Removes all events matching the specified ID in the event database
-* /venues/{ID} (GET) - Returns a list of venues matching the specified ID
-* /venues/delete/{ID} (POST) - Removes all venues matching the specified ID in the venue database
+
+* /venue/getAll (GET) - Returns a list of all venues
+* /venue/add/{ID} (POST) - Adds a venue to the venue database with the specified ID
+* /venue/{ID} (GET) - Returns a list of venues matching the specified ID
+* /venue/delete/{ID} (POST) - Removes all venues matching the specified ID in the venue database
+
+* /ticketing/getEvents (GET) - Returns a list of all events
+* /ticketing/addEvent/{ID} (PUT) - Adds an event to the event database with the specified ID
+* /ticketing/findEventByID{ID} (GET) - Returns a list of events matching the specified ID
+* /ticketing/deleteEvent/{ID} (POST) - Removes all events matching the specified ID in the event database
+* /ticketing/getVenues (GET) - Returns a list of all venues
+* /ticketing/addVenue/{ID} (POST) - Adds a venue to the venue database with the specified ID
+* /ticketing/findVenueByID{ID} (GET) - Returns a list of venues matching the specified ID
+* /ticketing/deleteVenue/{ID} (POST) - Removes all venues matching the specified ID in the venue database
