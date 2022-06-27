@@ -14,7 +14,7 @@ A Mule 4 project simulating an event ticketing web API, demonstrating communicat
 
 ## Usage
 
-> Using a REST-ready web client, send requests to the "http://localhost:(specified port)/(requested function path)" directory using the specified HTTP method. Supported function paths and their HTTP methods are below.
+> Using a REST-ready web client, send requests to the "ht<span>tp://localhost:(specified port)/(requested function path)" directory using the specified HTTP method. Supported function paths and their HTTP methods are below.
 
 ## Features
 
