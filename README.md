@@ -2,7 +2,7 @@
 
 ## Project Description
 
-A Mule 4 project simulating an event ticketing web API, demonstrating communication between 3 back-end APIs. Includes unit testing with MUnit and event logging with Mule.
+A Mule 4 project simulating an event ticketing web API, demonstrating communication between 3 back-end APIs. Includes event logging.
 
 ## Getting Started
 
